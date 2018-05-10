@@ -1,0 +1,5 @@
+PROJECT(exercise1)
+SET(SRC_LIST main.cpp)
+MESSAGE(STATUS "This is binary dir " ${PROJECT_BINARY_DIR})
+MESSAGE(STATUS "This is source dir " ${PROJECT_SOURCE_DIR})
+ADD_EXECUTABLE(Hello ${SRC_LIST})
